@@ -39,7 +39,6 @@ Cada filme possui os seguintes dados:
 - JDBC
 - Oracle Database
 - Oracle JDBC Driver
-- IntelliJ IDEA
 
 ## Estrutura do projeto
 
@@ -132,22 +131,6 @@ CREATE TABLE FILMES (
     GENERO VARCHAR2(100) NOT NULL
 );
 ```
-
-## Configuração
-
-Para realizar a conexão com o Oracle, o projeto utiliza um arquivo local chamado `config.properties`.
-
-Exemplo:
-
-```properties
-oracle.url=jdbc:oracle:thin:@localhost:1521:xe
-oracle.user=SEU_USUARIO
-oracle.password=SUA_SENHA
-```
-
-O arquivo `config.properties` não deve ser enviado para o GitHub, pois contém as credenciais utilizadas para acessar o banco de dados.
-
-Por isso, ele está incluído no `.gitignore`.
 
 ## Como executar
 
