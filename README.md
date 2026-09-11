@@ -247,7 +247,3 @@ Filme deletado com sucesso!
 ## Objetivo
 
 O objetivo do projeto é demonstrar a utilização de JDBC para integração com Oracle Database e a aplicação dos padrões de projeto DAO, Factory e Singleton em uma aplicação Java com operações completas de CRUD.
-
-## Autor
-
-Projeto desenvolvido para a disciplina de CP1.
